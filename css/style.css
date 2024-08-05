@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    background-image: url("/images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.fa-whatsapp {
+    font-size: 24px; 
+    color: #25D366;
+    margin-right: 10px;
+}
+
+.orders{
+    color: green;
+    font-weight: 800;
+    margin-left: 75%;
+    padding: 2%;
+}
+
+.orders:hover{
+    color: #fcb900;
+    cursor: pointer;
+}
+
+#logo{
+    width: 130px;
+    height: 130px;
+    margin-top: -1%;
+    margin-left: 15%;
+}
+
+.container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -5%;
+    margin-right: -15%;
+    display: flex;
+    justify-content: center;
+}
+
+.container li{
+    color: #fcb900;
+    list-style: none;
+    display: inline-block;   
+    /* margin-right: 5%; */
+    margin: 0 10px; 
+    display: inline-block; 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container li:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.menu{
+    background-color: #fcb900;
+    margin: 0;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+.strangers{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 2%;
+}
+
+.menu_text{
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+h3{
+    margin-top: 2%;
+    font-size: 32px;
+}
+
+h3::before,
+h3::after {
+    content: "";
+    display: inline-block;
+    width: 40px; 
+    height: 2px;
+    background-color: black;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+h3::before {
+    margin-right: 12px;
+}
+
+h3::after {
+    margin-left: 12px;
+}
+
+.food_menu ul{
+    list-style-type: none;
+    /* padding: 3%; */
+    /* margin: 0; */
+    /* margin-top: 6%; */
+    /* margin-right: -15%; */
+    display: flex;
+    justify-content: center;
+}
+
+.food_menu li{
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;   
+    padding-left: 6%;
+    margin-top: 3%;
+    margin-right: 5%; 
+    display: inline-block; 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.food_menu img{
+    width: 250px;
+    height: auto;
+    border-radius: 40%;
+}
+
+h4{
+    font-size: 24px;
+    color: black;
+    
+}
+
+h4 span{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.food_menu p{
+    color: black;
+    font-size: 16px;
+}
+
+p span{
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+}
+
+sup {
+    font-size: 12px;
+    vertical-align: super;
+}
+
+/* .price p{
+    font-size: 30px;
+} */
+
+
+button{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 12px 24px;
+    font-size: 12px;
+    border: 1px solid #a46497;
+    cursor: pointer; 
+    background-color: #fcb900;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #a46497;
+}
+
+button a:hover {
+    color: #ffffff
+}
+
+.reservations{
+    background-image: url("/images/reservations.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1450px;
+}
+
+.reservations h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #fcb900;
+    padding-top: 5%;
+}
+
+.reservation_description {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.reservation_text{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.reservations h3{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fcb900;
+}
+
+form{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+form  span {
+    color: red;
+}
+
+label{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 1.5%;
+}
+
+select{
+    padding: 1%;
+    width: 620px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+td input{
+    padding: 5%;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+table{
+    border-spacing: 20px 5px;
+}
+
+input{
+    padding: 1%;
+    width: 620px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.reservations button{
+    margin-left: 31.5%;
+    margin-top: 3%;
+    border-radius: 7px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.reservations ul{
+    margin-top: 1%;
+}
+
+
+.reservations li{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 16px;
+}
+
+.gallery img{
+    width: 350px;
+    height: 350px;
+    margin-left: 45%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    padding-left: 10%;
+}
+
+.footer{
+    background-color: #1e1810;
+    height: 600px;
+}
+
+.footer img{
+    width: 130px;
+    height: 130px;
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.footer p{
+    color: #ffffff;
+    margin-top: 1%;
+    margin-left: 20.5%;
+}
+
+footer ul{
+    margin-left: -40%;
+    margin-top: 15%;
+}
+
+.footer li{
+    color: #ffffff;
+    
+}
+
+#lavington{
+    margin-left: 35%;
+    margin-top: -8%;
+    list-style: none;
+    color: #ffffff;
+}
+
+#waterfront{
+    margin-left: 35%;
+    margin-top: 5%; 
+    list-style: none;
+    color: #ffffff;
+}
+
+#quick_link{
+    margin-left: 55%;
+    margin-top: -19%;
+    list-style: none;
+    color: #ffffff;
+}
+
+#opening_hours{
+    margin-left: 70%;
+    margin-top: -15%;
+    list-style: none;
+    color: #ffffff;
+}
+
+.footer_btn{
+    margin-left: 70%;
+    background-color: #1e1810;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.footer_btn a{
+    color: #ffffff;
+}
+
+
+.footer_btn:hover{
+    margin-left: 70%;
+    background-color: #ffffff;
+}
+
+.footer_btn a:hover{
+    color: black;
+}
+
+.navbar{
+    background-color: #a46497;
+    position: sticky;
+    z-index: 1;
+    padding: 2%;
+    color: #ffffff;
+    text-align: center;
+}
+
+
