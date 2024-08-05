@@ -10,7 +10,7 @@ https://thuotracy.github.io/cube-animation/
 ##  Languages 
 * CSS
 * HTML 
-* Javascript
+
 
 ## Support and contact details
 
